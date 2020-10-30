@@ -1,0 +1,320 @@
+<style>
+	.header{
+		height: 60px; background-color: lightgrey; 
+	}
+	.charts-conatiner{
+		background-color: ; width: 700px; height: 600px; margin-left: auto; margin-right: auto; 
+	}
+	.header-center{
+		background-color: blue; width: 700px; height: 59px; margin-left: auto; margin-right: auto; display: flex;
+	}
+	.charts-sort{
+		background-color: ; width: 700px; height: 35px; padding-top: 20px
+	}
+	.charts-up{
+		background-color: #9FF2DB; width: 700px; height: 70px; margin-top: 5px; display: flex; border-radius: 4px
+	}
+	.charts-new{
+		background-color: #F2E59F; width: 700px; height: 70px; margin-top: 5px; display: flex; border-radius: 4px
+	}
+	.charts-down{
+		background-color: #F29F9F; width: 700px; height: 70px; margin-top: 5px; display: flex; border-radius: 4px
+	}
+	.box-logo{
+		background-color: lightgrey; width: 110px; height: 39px; padding-top: 20px;
+	}
+	.box-links{
+		background-color: lightgrey; width: 515px; height: 39px; padding-top: 20px
+	}
+	.box-buttons{
+		background-color: lightgrey; width: 85px; height: 39px; padding-top: 20px
+	}
+	.charts-rank{
+		background-color: ; width: 70px; height: 100%; text-align: center;
+	}
+	.charts-info{
+		background-color: ; width: 420px; height: 100%; 
+	}
+	.charts-button{
+		background-color: ; width: 130px; height: 100%;
+	}
+	.charts-img{
+		background-color: ; width: 75px; height: 100%; 
+	}
+	.btn-green{
+		background-color: green; width: 100px; height: 21px; color: white; border: none; border-radius: 2px; 
+	}
+	.btn-purple{
+		background-color: purple; width: 85px; height:  21px; color: white; border: none; border-radius: 2px
+	}
+	.btn-blue{
+		background-color: blue; width: 110px; height: 25px; color: white; border: none; border-radius: 2px
+	}
+	.text-down{
+		color: #F29F9F; font-weight: 550; font-family: arial
+	}
+	.text-up{
+		color: #9FF2DB; font-weight: 550; font-family: arial
+	}
+	.text-new{
+		color: #F2E59F; font-weight: 550; font-family: arial;
+	}
+	.img{
+		height: 22px;
+	}
+	.btn-orange{
+		background-color: orange; color: white; border: none; height: 21px; border-radius: 2px
+	}
+	.btn-red{
+		background-color: red; color: white; border: none; height: 21px; border-radius: 2px
+	}
+	.rank{
+		font-weight: 700; font-family: arial
+	}
+	/*вот так ставятся комментарии внутри style*/
+</style>
+<!-- 1 уровень. шапка -->
+<div class="header">
+	<!-- 2 уровень. выравнивание шапки -->
+	<div class="header-center">
+		<!-- 3 уровень -->
+		<!-- лого -->
+		<div class="box-logo">
+
+			<img src="https://www.billboard.com/assets/1603122088/images/Billboard-white.svg?d7e1def6780deb3fea32" class="img">
+			
+		</div>
+		<!-- ссылки -->
+		<div class="box-links">
+
+			<a style="color: white; margin-left: 30px" href="">CHARTS</a>
+			<a style="color: white; margin-left: 30px" href="">NEWS</a>
+			<a style="color: red; margin-left: 30px" href="">VIDEO</a>
+			<a style="color: orange; margin-left: 30px" href="">PHOTOS</a>
+			
+		</div>
+		<!-- кнопка подписаться -->
+		<div class="box-buttons">
+
+			<button class="btn-purple">subscribe</button>
+			
+		</div>
+	</div>
+</div>
+
+<!-- 1 уровень. чат-контейнер -->
+<div class="charts-conatiner">
+	<!-- 2 уровень -->
+	<!-- для кнопок сортировки -->
+	<div class="charts-sort">
+
+		<button class="btn-orange">THIS WEEK</button>
+		<button class="btn-red">LAST WEEK</button>
+		<button class="btn-green">PEAK</button>
+		<button class="btn-purple">DURATION</button>
+		
+	</div>
+	<!--все треки в чарте -->
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+
+			<p class="rank">1</p>
+			<p class="text-up">Up</p>
+			
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<p style="font-weight: 550; font-family: arial">Savage Love (laxed - Siren Beat)</p>
+			<p style="font-family: arial">Jaws 685 x Jason Derulo x BTS</p>
+			
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+
+			<button class="btn-blue">Воспроизвести</button>
+			
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="https://img.discogs.com/ivVlwTVskwWVjqo_lpPm0ymsAtc=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-15470182-1592062361-3344.jpeg.jpg" style="height: 70px; width: 80px">
+		</div>
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+
+			<p class="rank">2</p>
+			<p class="text-new">New</p>
+			
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<p style="font-weight: 550; font-family: arial">Dynamite</p>
+			<p style="font-family: arial">BTS</p>
+			
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+
+			<button class="btn-green">Купить</button>
+
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+
+			<img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/BTS_-_Dynamite.png/220px-BTS_-_Dynamite.png" style="height: 70px; width: 80px;">
+			
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+
+			<p class="rank">3</p>
+			<p class="text-new">New</p>
+			
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<p style="font-weight: 550; font-family: arial">WAP</p>
+			<p style="font-family: arial">Cardi B featuring Megan Thee Stallion</p>
+			
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+
+			<button class="btn-green">Купить</button>
+			
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="https://upload.wikimedia.org/wikipedia/ru/thumb/d/d6/Wap_%28%D0%BF%D0%B5%D1%81%D0%BD%D1%8F%29.png/274px-Wap_%28%D0%BF%D0%B5%D1%81%D0%BD%D1%8F%29.png" style="height: 70px; width: 80px;">
+			
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+
+			<p class="rank">4</p>
+			<p class="text-up">Up</p>
+			
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<p style="font-weight: 550; font-family: arial">Mood</p>
+			<p style="font-family: arial">24kGoldn featuring iann dior</p>
+			
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+
+			<button class="btn-green">Купить</button>
+			
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+
+			<img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/24kGoldn_-_Mood.png/220px-24kGoldn_-_Mood.png" style="height: 70px; width: 80px;">
+			
+		</div>		
+	</div>
+
+	<!-- трек down -->
+	<div class="charts-down">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+
+			<p class="rank">5</p>
+			<p class="text-down">Down</p>
+			
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<p style="font-weight: 550; font-family: arial">Laugh Mow Cry Later</p>
+			<p style="font-family: arial">Drake featuring Lil Durk</p>
+			
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+
+			<button class="btn-green">Купить</button>
+			
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="https://upload.wikimedia.org/wikipedia/en/d/d0/Drake_-_Laugh_Now_Cry_Later.png" style="height: 70px; width: 80px;">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+
+			<p class="rank">6</p>
+			<p class="text-new">New</p>
+
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<p style="font-weight: 550; font-family: arial">Blinding Lights</p>
+			<p style="font-family: arial">The Weekend</p>
+			
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+
+			<button class="btn-blue">Воспроизвести</button>
+			
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="https://img.discogs.com/LRj3nh6Dr4MxgA6BbqPx0uqcmd4=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-14752961-1580918235-5355.jpeg.jpg" style="height: 70px; width: 80px;">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+
+			<p class="rank">7</p>
+			<p class="text-up">Up</p>
+			
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<p style="font-weight: 700; font-family: arial;">Rockstar</p>
+			<p style="font-family: arial;">DaBaby Featuring robby Ricch</p>
+			
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+
+			<button class="btn-blue">Воспроизвести</button>
+			
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="https://www.juloo.it/wp-content/uploads/2020/04/dababy-rockstar-feat.-Roddy-Ricch.png" style="height: 70px; width: 80px;">
+		</div>		
+	</div>
+</div>
+<!--  -->
